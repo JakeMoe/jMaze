@@ -34,7 +34,7 @@ public class Main extends JFrame {
     mazeGUI.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     mazeGUI.setSize(500, 500);
 
-    maze = new Maze(10, 10, 20, 10);
+    maze = new Maze(20, 20, 20, 10);
 
     jMenuBar = new MazeMenu(maze);
     mazeGUI.setJMenuBar(jMenuBar);
