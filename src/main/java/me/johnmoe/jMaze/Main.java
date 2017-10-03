@@ -17,12 +17,7 @@ public class Main extends JFrame {
   }
 
   public static void main(String[] args) {
-    EventQueue.invokeLater(new Runnable() {
-      @Override
-      public void run() {
-        createAndShowGui();
-      }
-    });
+    EventQueue.invokeLater(Main::createAndShowGui);
   }
 
   private static void createAndShowGui() {
